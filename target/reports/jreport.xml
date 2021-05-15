@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
-    <testcase classname="SignUp to upskil elearning" name="Verify the signup to upskill elearning" time="0">
-        <system-out><![CDATA[Given Open the upskill elearning website....................................skipped
-Given user should be on the main page.......................................skipped
-When User clicks on SignUp link.............................................skipped
-And Select Teach Course Radio button........................................skipped
-And Enter mandatory details firstname "asbaag", lastname "saha", e-mail "praksaha@in.ibm.com", Username "asbaag", pass "Etihad@2021",Confirm password.skipped
-And clicks on Register button...............................................skipped
-Then Confirmation message will be populated in next screen and should have firstname "asbaag" and lastname "saha".skipped
-When User clicks on top right corner........................................skipped
-Then Validate the email "praksaha@in.ibm.com"...............................skipped
-When User navigates to Homepage.............................................skipped
-And clicks on Compose.......................................................skipped
-And Enter Send To "sneha"...................................................skipped
-And Enter Subject...........................................................skipped
-And Enter mail body.........................................................skipped
-And Click on Send message...................................................skipped
-Then Validate the acknowledgement...........................................skipped
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="35.53081">
+    <testcase classname="SignUp to upskil elearning" name="Verify the signup to upskill elearning" time="35.53081">
+        <system-out><![CDATA[Given Open the upskill elearning website....................................passed
+Given user should be on the main page.......................................passed
+When User clicks on SignUp link.............................................passed
+And Select Teach Course Radio button........................................passed
+And Enter mandatory details firstname "tomg", lastname "saha", e-mail "praksaha@in.ibm.com", Username "tomg", pass "Etihad@2021",Confirm password.passed
+And clicks on Register button...............................................passed
+Then Confirmation message will be populated in next screen and should have firstname "tomg" and lastname "saha".passed
+When User clicks on top right corner........................................passed
+Then Validate the email "praksaha@in.ibm.com"...............................passed
+When User navigates to Homepage.............................................passed
+And clicks on Compose.......................................................passed
+And Enter Send To "sneha"...................................................passed
+And Enter Subject...........................................................passed
+And Enter mail body.........................................................passed
+And Click on Send message...................................................passed
+Then Validate the acknowledgement...........................................passed
 ]]></system-out>
     </testcase>
 </testsuite>

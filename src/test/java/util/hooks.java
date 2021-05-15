@@ -19,7 +19,7 @@ public class hooks {
 	}
 	@After
 	public void exitDriver() {
-		//driver.quit();
+		driver.quit();
 		System.out.println("Quiting driver");
 	}
 	

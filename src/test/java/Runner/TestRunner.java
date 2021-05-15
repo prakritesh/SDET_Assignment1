@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 	tags ={"@Smoke"},
 	dryRun = false,
 	monochrome = true,
-	plugin = {"pretty","junit:target/reports/jreport.xml"}
+	plugin = {"pretty","html:target/reports/htmresult.html","json:target/reports/jsonresult.json","junit:target/reports/jreport.xml"}
 )
 public class TestRunner {
 

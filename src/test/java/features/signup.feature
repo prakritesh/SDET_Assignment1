@@ -24,4 +24,4 @@ Feature: SignUp to upskil elearning
 
     Examples: 
       | firstname | username | lastname | e-mail              | password    | sendTo |
-      | asbaag    | asbaag   | saha     | praksaha@in.ibm.com | Etihad@2021 | sneha  |
+      | tomg      | tomg     | saha     | praksaha@in.ibm.com | Etihad@2021 | sneha  |
